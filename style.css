@@ -1,0 +1,113 @@
+.main-page {
+    background-color: #f2f3f3;
+    color: #606973;
+    font-family: Sans-serif;
+}
+
+.main-page-upper-part {
+    display: flex;
+    padding: 5% 5% 2% 5%;
+}
+
+.header {
+    width: 50%;
+    font-size: 350%;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login {
+    width: 50%;
+    text-align-last: right;
+}
+
+.login-button {
+    padding: 3% 6%;
+    border-radius: 50px;
+    font-size: 150%;
+    background-color: #11ce66;
+    color: #606973;
+    border: none;
+    cursor: pointer;
+    font-family: Sans-serif;
+}
+
+.main-page-middle-part {
+    display: flex;
+    padding: 2% 5% 2% 5%;
+}
+
+.image {
+    width: 100%;
+}
+
+.main-page-bottom-part {
+    display: grid;
+    padding: 2% 5% 5% 5%;
+}
+
+.about-header {
+    padding-bottom: 2%;
+    font-size: 200%;
+    justify-self: center;
+}
+
+.about-body {
+    padding-top: 2%;
+}
+
+.login-page {
+    background-color: #f2f3f3;
+    color: #606973;
+    font-family: Sans-serif;
+    padding: 20%;
+}
+
+.login-page-upper-part {
+    display: flex;
+    padding: 0% 5% 10% 5%;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.login-header {
+    width: 100%;
+    text-align: center;
+}
+
+.login-page-middle-part {
+    text-align-last: center;
+}
+
+.input-text {
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.input-field {
+    padding-bottom: 5%;
+}
+
+.input {
+    height: 50px; 
+    width:75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    font-size: 150%;
+    background-color: #969faa;
+    color: #f2f3f3;
+    border: none;
+    font-family: Sans-serif;
+}
+
+.text {
+    width: 100%;
+}
+
+.login-page-login {
+    padding-top: 15%;
+}
