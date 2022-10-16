@@ -188,7 +188,7 @@ h3 {
   justify-content: center;
 }
 
-text {
+.overview-text {
   white-space: nowrap;
   color: #47525e;
   font-family: Lato;
