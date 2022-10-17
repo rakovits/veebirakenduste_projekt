@@ -245,6 +245,7 @@ h3 {
   border-radius: 1em;
 }
 
+
 .switch div {
   height: 1em;
   width: 1em;
@@ -262,6 +263,21 @@ h3 {
   transform: translate3d(100%, 0, 0);
   background: #8fff64;
 }
+
+.switch input:checked + .heating {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  background: orange;
+}
+
+.switch + .heating {
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+  background: blue;
+}
+
 
 .one-line {
   display: flex;
@@ -286,4 +302,68 @@ h3 {
 
 .switch input:checked + div .off {
   display: block;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.house-1 {
+  padding: 5%;
+  background-color: #d7ffe9;
+  border-style: solid;
+  border: none;
+  border-radius: 10%;
+  display: block;
+  height: auto;
+  width: 700px;
+}
+
+.house-2 {
+  padding: 5%;
+  background-color: #c5fffd;
+  border-style: solid;
+  border: none;
+  border-radius: 10%;
+  display: block;
+  height: auto;
+}
+
+.house-3 {
+  padding: 5%;
+  background-color: #f9e0ff;
+  border-style: solid;
+  border-radius: 10%;
+  border: none;
+  display: block;
+  height: auto;
+}
+
+.btn-group button {
+  border: 1px solid green;
+  color: black;
+  padding: 7px 12px;
+  cursor: pointer;
+  width: 70%;
+  display: block;
+}
+
+.btn-group {
+  margin: 10px;
+}
+
+.plus {
+  background-color: #f95f62;
+}
+
+.minus {
+  background-color: #00a6ff;
+}
+
+.kastmine {
+  background-color: #00a6ff;
+  border-radius: 20px;
+  padding: 5px 30px 5px 30px;
 }
